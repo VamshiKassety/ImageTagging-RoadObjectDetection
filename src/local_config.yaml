@@ -1,0 +1,25 @@
+# Dataset root directory
+path: C:\\Work\\AIML\\DataSets\\BDD_DataSet\\data_dir\\data_dir
+
+# Training and validation datasets (relative to 'path')
+train: BDD_100K\\train\\images
+val: BDD_100K\\val\\images
+
+nc: 14
+
+# List of class names
+names:
+  - DEFAULT
+  - traffic sign
+  - traffic light
+  - car
+  - rider
+  - motorcycle
+  - pedestrian
+  - bus
+  - truck
+  - bicycle
+  - other vehicle
+  - train
+  - trailer
+  - other person
